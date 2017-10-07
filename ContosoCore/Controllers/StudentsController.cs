@@ -10,11 +10,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ContosoCore.Controllers
 {
-    public class StudentController : Controller
+    public class StudentsController : Controller
     {
         private readonly SchoolContext _context;
 
-        public StudentController(SchoolContext context)
+        public StudentsController(SchoolContext context)
         {
             this._context = context;
         }
